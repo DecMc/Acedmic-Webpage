@@ -1,0 +1,26 @@
+name: "mywebpage"  
+author: "Declan McLaren McTague"  
+output_dir: "docs"  
+output:  
+  html_document:  
+    self_contained: no  
+    theme: sandstone 
+  css: style.css
+    
+navbar:  
+  title: "Declan McLaren" 
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About Me"
+      href: About_Me.html
+    - text: "Current Projects"
+      href: Current_Projects.html
+    - text: "Previous Projects"
+      href: Previous_Projects.html
+    - text: "Curriculum Vitae"
+      href: Awards_And_Achievments.html
+    - text: "Contact me"
+      href: Contact_Me.html
+    - text: "Publications"
+      href: Publications.html
